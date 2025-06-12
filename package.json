@@ -1,0 +1,27 @@
+{
+  "name": "github-profile-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KashishJuneja101003/GitHub-Profile-Viewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KashishJuneja101003/GitHub-Profile-Viewer/issues"
+  },
+  "homepage": "https://github.com/KashishJuneja101003/GitHub-Profile-Viewer#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10",
+    "vite": "^6.3.5"
+  }
+}

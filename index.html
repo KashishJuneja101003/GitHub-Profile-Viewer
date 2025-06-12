@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Profile Viewer</title>
+</head>
+<body>
+    <div class="bg-black w-full h-[998px] flex flex-col gap-20 text-white justify-center items-center">
+        <div class="flex flex-col gap-7">
+            <h1 class="text-white text-4xl">GitHub Profile Viewer</h1>
+            <div class="flex justify-between">
+                <input class="w-[70%]" type="text" name="Name" id="name" style="border: 1px solid white;">
+                <button class="border-1 px-1 cursor-pointer w-20">Search</button>
+            </div>
+        </div>
+
+        <!-- Rendering Part -->
+        <div class="flex border-2 border-white rounded-3xl w-[50%] p-5 justify-between">
+            <!-- Left -->
+            <div class="flex flex-col justify-between items-center">
+                <img class="rounded-[50%]" src="./image.png" alt="">
+                <p for="name" class="text-2xl font-bold">Kashish Juneja</p>
+                <p for="bio">Hoshiyar Ladki</p>
+            </div>
+
+            <!-- Right -->
+            <div class="space-y-8">
+                <!-- Up -->
+                 <div class="flex gap-5">
+                    <div>
+                        <p>Followers</p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <p>Following</p>
+                        <p></p>
+                    </div>
+                    <div>
+                        <p>Repositories</p>
+                        <p></p>
+                    </div>
+                 </div>
+
+                 <!-- Down -->
+                  <span class="border-2 border-white rounded-xl">
+                    Visit Profile
+                  </span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
